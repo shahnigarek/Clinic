@@ -6,7 +6,304 @@
 * a{
     text-decoration: none;
 }
-#logo h2{
+#first{
+    background-image: url(images/Banner-home-shop.jpg);
+    position: relative;
+    z-index: 1;
+    
+ }
+ #first .head2::after{
+      content: 'FP3 Masks';
+      top: 8.5rem;
+      left: 3rem;
+     font-size: 10rem;
+     color: #3b98c4;
+     font-weight: 700;
+      position: absolute;
+      z-index: -1;
+   }
+ #first .head{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 1rem 2rem 1rem;
+ }
+ 
+ #first .head .nav a{
+    padding-left: 1rem;
+    margin-left: 1.4rem;
+    margin-top: 1.5rem;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 33px;
+    transition-duration: 0.3s;
+    color: white;
+    text-decoration: none;
+ }
+ #first .head .appointment a{
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin: 0.5rem 2rem 0rem 0rem;
+    color: rgb(37 37 37);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+ }
+ 
+ #first .head2{
+    display: flex;
+    padding: 0rem 3rem 12rem;
+   align-items: center;
+   
+ }
+ #first .head2 .left-box img{
+    width: 100%;
+    padding-top: 2rem;
+    
+ }
+ #first .head2 .left-box{
+    width: 45%;
+ }
+ #first .head2 .right-box{
+    width: 54%;
+    padding-left: 0.2rem;
+    margin-bottom: 100px;
+ 
+ }
+ #first .head2 .right-box h1{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Jost', sans-serif;
+ }
+ #first .head2 .right-box h1{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    padding: 8rem 18rem 0rem 3rem;
+    color: white;
+    
+ }
+ #first .head2 .right-box p{
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: 400;
+    padding: 2rem 7rem 0rem 3rem;
+    color: rgb(255 255 255);
+    font-family: 'Poppins', sans-serif;
+    
+ }
+ #first .head2 .right-box a{
+    font-size: 14px;
+    line-height: 22.5px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color:rgb(0, 107, 166);
+    border-radius: 30px;
+    vertical-align: middle;
+    color: rgb(255 255 255);
+    font-family: 'Poppins', sans-serif;
+    margin: 2rem 0rem 0rem 3rem;
+    display: inline-block;
+    
+ }
+ #first .head2 .right-box a:hover{
+    font-size: 14px;
+    line-height: 22.5px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color:rgb(202, 226, 240);
+    border-radius: 30px;
+    vertical-align: middle;
+    color: rgb(255 255 255);
+    font-family: 'Poppins', sans-serif;
+    margin: 2rem 0rem 0rem 3rem;
+    display: inline-block;
+    
+ }
+ #second{
+    padding: 10rem 6rem;
+ }
+ #second .heading{
+    position: relative;
+ }
+ #second .heading h2{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+    line-height: 27px;
+    color: rgb(34 34 34);
+    margin-bottom: 40px;
+ 
+ }
+ #second .heading h2::after{
+    content: 'Masks';
+    top: -3.5rem;
+    left: 21rem;
+    font-size: 10rem;
+    color: #f7f7f7;
+    font-weight: 700;
+      position: absolute;
+      z-index: -1;
+   }
+ #second .imagesAndTitles{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+ #second .imagesAndTitles .box{
+    width: 32%;
+    margin-bottom: 2rem;
+    background-color: #f2f2f2;
+    border-top-color: white;
+    border-radius: 1rem;
+ 
+   } 
+ 
+ #second .imagesAndTitles .box .image img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+ 
+   }
+   #second .imagesAndTitles .box .text .left a{
+     font-size: 22px;
+     line-height: 32px;
+     font-weight: 400;
+     font-family: 'Jost', sans-serif;
+     color: rgb(17 17 17);
+     text-decoration: none;
+   }
+   #second .imagesAndTitles .box .text .left h3{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(34 52 65);
+    text-decoration: none;
+  }
+  #second .imagesAndTitles .box .text{
+     display: flex;
+     padding-bottom: 2rem;
+ }
+ #second .imagesAndTitles .box .text .right{
+    padding: 2rem 0rem 0rem 5rem;
+    color: rgb(140, 140, 140);
+ }
+ #second .imagesAndTitles .box .text .left{
+    margin-left: 2rem;
+ }
+ #second .imagesAndTitles .box .image .icon{
+    background-color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 1rem 0.5rem;
+    border-radius: 2rem;
+ }
+ #second .imagesAndTitles .box .image .icon i{
+    display: block;
+    padding: 0.7rem 0rem;
+    color: rgb(34, 52, 65);
+    font-size: 12px;
+ }
+ #second .imagesAndTitles .box .image{
+      position: relative;  
+  }
+  #second .footing{
+     font-size: 14px;
+     font-weight: 600;
+     letter-spacing: 0.5px;
+     line-height: 18.62px;
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+     color: white;
+     background-color: rgb(0, 107, 166);
+     text-decoration: none;
+     border-radius: 2rem;
+     padding: 1rem 2rem;
+     margin-left: 30rem;
+ }
+ #second .footing:hover{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18.62px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(202, 226, 240);
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    margin-left: 30rem;
+ }
+ #third .general{
+    background-image: url(images/quality-banner.jpg);
+    height: 28rem;
+    
+ }
+ #third .general .text{
+    padding: 10rem;
+    position: relative;
+    z-index: 0;
+ }
+ #third .general .text h2::after{
+    content: 'Quality';
+    font-size: 10rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+   position: absolute;
+   z-index: -1;
+   top: 7rem;
+   left: 3rem;
+   color: rgba(52, 229, 150, 255);
+   font-family: 'Poppins', sans-serif;
+ }
+ #third .general .text p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(255 255 255);
+    width: 25rem;
+    margin-bottom: 2rem;
+    text-align: center;
+ }
+ #third .general .text h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: rgb(255 255 255);
+    width: 30rem;
+    margin-left: -2rem;
+ }
+ #third .general .text a{
+    background-color: white;
+    color: rgb(0, 107, 166);
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    font-weight: 600;
+ }
+ 
+ #third .general .text .button{
+    margin-left: 7rem;
+ }
+ #logo h2{
     color:#222222;
     font-size: 36px;
     text-align: center;
@@ -45,4 +342,97 @@
     display: flex;
     justify-content: space-between;
  
-}
+} 
+#fifth .general{
+    background-image: url(images/subscribe-bg.jpg);
+    text-align: center;
+ }
+ #fifth .general .text{
+    position: relative;
+    padding: 12rem 0rem;
+    z-index: 0;
+ }
+ #fifth .general .text h2::after{
+    content: 'Subscribe';
+    z-index: -1;
+    top: 9.5rem;
+    left: 23rem;
+    font-weight: 400;
+    font-size: 8.5rem;
+    color: #5f5e5c;
+    font-weight: 700;
+      position: absolute;
+      font-family: 'Poppins', sans-serif;
+ }
+ #fifth .general .text h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 10px;
+    color: white;
+    
+ }
+ #fifth .general .text p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    margin: 10px 110px 10px;
+    color: white;
+ }
+ #fifth .general .text .email{
+    margin-top: 2rem;
+ }
+ #fifth .general .text .email input{
+    padding: 1.5rem 20rem 1.5rem 2rem;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 35px;
+    border-color: transparent;
+    color: rgb(67, 73, 89);
+    border: none;
+    outline: none;
+ 
+ }
+ #fifth .general .text .email input:active{
+    padding: 1.5rem 20rem 1.5rem 2rem;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    color: rgb(67, 73, 89);
+ 
+ }
+ #fifth .general .text .input{
+   position: relative;
+ }
+ 
+ #fifth .general .text .input button {
+    position: absolute;
+    top: 0.5rem;
+    right: 25.5rem;
+    border-radius: 2rem;
+    background-color: rgb(0, 107, 166);
+    border-color: transparent;
+    color: white;
+    padding: 1rem 2rem;
+ 
+ }
+ #fifth .general .text .input button:hover{
+    position: absolute;
+    top: 0.5rem;
+    right: 25.5rem;
+    border-radius: 2rem;
+    background-color: rgb(66, 146, 189);
+    border-color: transparent;
+    color: white;
+    padding: 1rem 2rem;
+ 
+ }
+ #fifth .general .text .input a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+ }
